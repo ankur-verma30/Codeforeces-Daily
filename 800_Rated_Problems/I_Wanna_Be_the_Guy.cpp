@@ -29,7 +29,7 @@ int main()
         freq[b[i]]++;
     }
     bool clear = true;
-    for (int i=1;i<n+1;i++)
+    for (int i = 1; i < n + 1; i++)
     {
         if (freq[i] == 0)
         {
